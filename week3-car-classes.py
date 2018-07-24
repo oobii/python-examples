@@ -1,4 +1,4 @@
-# Example from the MIPT
+# Programming Assignment: Классы и наследование 
 # use print(Car.mro()) to method resolution order for super classes
 # cars.csv file Example
 # car_type;brand;passenger_seats_count;photo_file_name;body_whl;carrying;extra
