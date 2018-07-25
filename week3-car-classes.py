@@ -39,11 +39,7 @@ class BaseCar:
 class Car(BaseCar):
     def __init__(self, car_type="", brand="", passenger_seat_count=0, photo_file_name="", carrying=0.0):
         super().__init__(car_type, brand, photo_file_name, carrying)
-        # self.car_type = car_type
-        # self.photo_file_name = photo_file_name
-        # self.brand = brand
         self.passenger_seat_count = passenger_seat_count
-        # self.carrying = carrying
 
 
 class Truck(BaseCar):
